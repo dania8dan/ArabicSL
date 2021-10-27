@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="rtl">
+<head>
+    <title>لغة الإشارة العربية</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body >  
+    <div col-1>
+        <button onclick="playAudio(myAudio)" type="button" id="audbtn"style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/Psound.png) ;"></button>
+        <button onclick="pauseAudio(myAudio)" type="button" id="audbtn"style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/Ssound.png) ;"></button>
+     </div> 
+     <audio id="myAudio" autoplay loop> 
+        <source src="recordes/rain.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+ <div class="container" style= "height:700px;; width: 1000px; background-image: url(images/ColorsBG.gif); background-size:cover; background-repeat: no-repeat;"  > 
+    <div class="d-flex justify-content-around">
+        <div class="p-2"><img src="Buttons/PagesLogo.png" width="100px" height="100px"></div>
+        <div class="p-2"><img src="Buttons/colorFlag.png" width="200px" height="100px"></div>
+        <div class="p-2"><a href="../index.html"><img src="Buttons/homePageB.png" width="100px" height="100px"></a></div>
+      </div> 
+    <div class="row justify-content-center" >
+        <div class="modal" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header" style="background-color:rgb(189, 197, 202)">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body d-flex">
+            <img class="modal-content" id="img01" width="25%" height="75%" >
+           <audio controls autoplay id="aud" >
+               <source type="audio/mpeg">
+           </audio>
+           </div>
+        </div>      
+        </div>
+    </div>
+        <div class="col-10 align-items-end "  >
+            <br><br><br><br><br><br><br><br><br><br>
+            <button type="button" class="btn-dark"id="blue" onclick="full(blue)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/blueB.png);"></button>
+            <button type="button" class="btn-dark"id="green" onclick="full(green)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/greenB.png);"></button>
+            <button type="button" class="btn-dark" id="red" onclick="full(red)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/redB.png);"></button>
+            <button type="button" class="btn-dark"id="yellow" onclick="full(yellow)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/yellowB.png);"></button>
+            <button type="button" class="btn-dark"id="orange" onclick="full(orange)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/orangeB.png);"></button>
+            <button type="button" class="btn-dark" id="pink" onclick="full(pink)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/pinkB.png);"></button>
+            <button type="button" class="btn-dark" id="white" onclick="full(white)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/whiteB.png);"></button>
+            <button type="button" class="btn-dark" id="black" onclick="full(black)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/blackb.png);"></button>
+        </div>
+    </div>
+</div>     
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Letter.js"></script>
+</body>
+</html>

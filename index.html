@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>لغة الإشارة العربية</title>
+    <link rel="stylesheet" href="Sources/css/bootstrap.css">
+    <link rel="stylesheet" href="Sources/css/style.css">
+</head>
+<body>
+    <div col-1>
+        <button onclick="playAudio(myAudio1)" type="button" id="audbtn"style= "background-position:center; background-repeat: no-repeat; background-image: url(Sources/Buttons/Psound.png) ;"></button>
+        <button onclick="pauseAudio(myAudio1)" type="button" id="audbtn"style= "background-position:center; background-repeat: no-repeat; background-image: url(Sources/Buttons/Ssound.png) ;"></button>
+     </div> 
+     <audio id="myAudio1" autoplay loop> 
+        <source src="Sources/recordes/train.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+<div class="container">
+    <div class="row" >
+        <div class="col-1"></div>
+        <div class="col-10 " style=" height: 700px;; width: 1000px; background-image: url(Sources/images/MainBG.gif); background-size:contain; background-repeat: no-repeat;"  >
+           <div class="container">
+               <div class="row" >
+               <div class="col"></div>
+               <div class="col"></div>
+               <div class="col-5 justify-content-center ">
+                   <div class="col" > <a href="Sources/LettersPage.html"><img src="Sources/Buttons/TabLetters.png" width="100%" height="100%"></a></div>
+                   <div class="col "><a href="Sources/Number.html"><img src="Sources/Buttons/TabNum.png" width="50%" height="50%"></a></div>
+                   <div class="col "><a href="Sources/colors.html"><img src="Sources/Buttons/TabColor.png" width="50%" height="50%"></a></div>
+               </div>
+               </div>   
+        </div>
+        </div>
+
+        
+    </div>
+</div>
+ 
+    <script src="Sources/js/popper.min.js"></script>
+    <script src="Sources/js/jquery-3.6.0.min.js"></script>
+    <script src="Sources/js/bootstrap.js"></script>
+    <script src="Sources/js/Letter.js"></script>
+</body>
+
+</html>

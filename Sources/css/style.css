@@ -1,0 +1,50 @@
+body{
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;  
+
+}
+.btn-circle{
+  width:15%;
+  height:15%;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 50%;
+  background-size:contain;
+}
+.btn-primary{
+  width:9%;
+  height: 9%;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  background-size:contain;
+
+}
+.modal {
+  /* Hidden by default */
+  position: fixed; /* Stay in place */
+  display: none;
+  
+}
+.modal-content {
+  margin: auto;
+ 
+}
+.btn-dark{
+  width:30%;
+  height: 30%;
+  border: none;
+  overflow: hidden;
+  background-color: transparent;
+  background-size:contain;
+}
+
+#audbtn{
+  width:20px;
+  height:20px;
+  background-color: transparent;
+  border-radius: 50%;
+  background-size:contain;
+}

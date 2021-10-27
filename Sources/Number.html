@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>لغة الإشارة العربية</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body style="background-image: url(images/NumBG.png);">
+        <div class="d-flex justify-content-around">
+            <div class="p-2"><img src="Buttons/PagesLogo1.png" width="100px" height="100px"></div>
+            <div class="p-2"><img src="Buttons/NumFlag.png" width="200px" height="100px"></div>
+            <div class="p-2"><a href="../index.html"><img src="Buttons/homePageB.png" width="100px" height="100px"></a></div>
+          </div>
+         <div class="container">
+            <div class="row justify-content-center" >
+                <div class="modal" id="mymodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header" style="background-color:rgb(241, 181, 228)">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body d-flex">
+                    <img class="modal-content" id="img01" width="25%" height="75%" >
+                   <audio controls autoplay id="aud" >
+                       <source type="audio/mpeg">
+                   </audio>
+                   </div>
+                </div>
+                    
+                </div>
+            </div>
+                <div class="col-10 " style= "height:600px;; width: 1000px;"  > 
+                    
+                    <br>
+                    <button type="button" class="btn-primary" id="One"data-toggle="modal" data-target="#mymodal" onclick="full(One)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/1.png);"></button>  
+                    <button type="button" class="btn-primary" id="Two" data-toggle="modal" data-target="#mymodal" onclick="full(Two)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/2.png);"></button>
+                    <button type="button" class="btn-primary" id="Three" onclick="full(Three)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/3.png);"></button>
+                    <button type="button" class="btn-primary"id="Four" onclick="full(Four)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/4.png);"></button>
+                    <button type="button" class="btn-primary"id="Five" onclick="full(Five)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/5.png);"></button>
+                    <button type="button" class="btn-primary"  id="Six"  data-toggle="modal" data-target="#mymodal" onclick="full(Six)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/6.png);"></button> 
+                    <button type="button" class="btn-primary" id="Seven"data-toggle="modal" data-target="#mymodal" onclick="full(Seven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/7.png);"></button>      
+                    <button type="button" class="btn-primary" id="Eight" data-toggle="modal" data-target="#mymodal" onclick="full(Eight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/8.png);"></button>
+                    <button type="button" class="btn-primary" id="Nine" onclick="full(Nine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/9.png);"></button>
+                    <button type="button" class="btn-primary"id="Ten" onclick="full(Ten)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/10.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="Eleven"data-toggle="modal" data-target="#mymodal" onclick="full(Eleven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/11.png);"></button>  
+                    <button type="button" class="btn-primary" id="Twelve" data-toggle="modal" data-target="#mymodal" onclick="full(Twelve)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/12.png);"></button>
+                    <button type="button" class="btn-primary" id="Thirteen" onclick="full(Thirteen)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/13.png);"></button>
+                    <button type="button" class="btn-primary"id="Fourteen" onclick="full(Fourteen)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/14.png);"></button>
+                    <button type="button" class="btn-primary"id="Fifteen" onclick="full(Fifteen)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/15.png);"></button>
+                    <button type="button" class="btn-primary"  id="Sixteen"  data-toggle="modal" data-target="#mymodal" onclick="full(Sixteen)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/16.png);"></button> 
+                    <button type="button" class="btn-primary" id="Seventeen"data-toggle="modal" data-target="#mymodal" onclick="full(Seventeen)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/17.png);"></button>      
+                    <button type="button" class="btn-primary" id="Eighteen" data-toggle="modal" data-target="#mymodal" onclick="full(Eighteen)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/18.png);"></button>
+                    <button type="button" class="btn-primary" id="Nineteen" onclick="full(Nineteen)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/19.png);"></button>
+                    <button type="button" class="btn-primary"id="Twenty" onclick="full(Twenty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/20.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="TwentyOne"data-toggle="modal" data-target="#mymodal" onclick="full(TwentyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/21.png);"></button>  
+                    <button type="button" class="btn-primary" id="TwentyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(TwentyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/22.png);"></button>
+                    <button type="button" class="btn-primary" id="TwentyThree" onclick="full(TwentyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/23.png);"></button>
+                    <button type="button" class="btn-primary"id="TwentyFour" onclick="full(TwentyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/24.png);"></button>
+                    <button type="button" class="btn-primary"id="TwentyFive" onclick="full(TwentyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/25.png);"></button>
+                    <button type="button" class="btn-primary"  id="TwentySix"  data-toggle="modal" data-target="#mymodal" onclick="full(TwentySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/26.png);"></button> 
+                    <button type="button" class="btn-primary" id="TwentySeven"data-toggle="modal" data-target="#mymodal" onclick="full(TwentySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/27.png);"></button>      
+                    <button type="button" class="btn-primary" id="TwentyEight" data-toggle="modal" data-target="#mymodal" onclick="full(TwentyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/28.png);"></button>
+                    <button type="button" class="btn-primary" id="TwentyNine" onclick="full(TwentyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/29.png);"></button>
+                    <button type="button" class="btn-primary"id="Thirty" onclick="full(Thirty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/30.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="ThirtyOne"data-toggle="modal" data-target="#mymodal" onclick="full(ThirtyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/31.png);"></button>  
+                    <button type="button" class="btn-primary" id="ThirtyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(ThirtyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/32.png);"></button>
+                    <button type="button" class="btn-primary" id="ThirtyThree" onclick="full(ThirtyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/33.png);"></button>
+                    <button type="button" class="btn-primary"id="ThiryFour" onclick="full(ThiryFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/34.png);"></button>
+                    <button type="button" class="btn-primary"id="ThiryFive" onclick="full(ThiryFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/35.png);"></button>
+                    <button type="button" class="btn-primary"  id="ThirySix"  data-toggle="modal" data-target="#mymodal" onclick="full(ThirySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/36.png);"></button> 
+                    <button type="button" class="btn-primary" id="ThirySeven"data-toggle="modal" data-target="#mymodal" onclick="full(ThirySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/37.png);"></button>      
+                    <button type="button" class="btn-primary" id="ThiryEight" data-toggle="modal" data-target="#mymodal" onclick="full(ThiryEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/38.png);"></button>
+                    <button type="button" class="btn-primary" id="ThiryNine" onclick="full(ThiryNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/39.png);"></button>
+                    <button type="button" class="btn-primary"id="Forty" onclick="full(Forty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/40.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="FortyOne"data-toggle="modal" data-target="#mymodal" onclick="full(FortyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/41.png);"></button>  
+                    <button type="button" class="btn-primary" id="FourtyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(FourtyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/42.png);"></button>
+                    <button type="button" class="btn-primary" id="FourtyThree" onclick="full(FourtyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/43.png);"></button>
+                    <button type="button" class="btn-primary"id="FourtyFour" onclick="full(FourtyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/44.png);"></button>
+                    <button type="button" class="btn-primary"id="FourtyFive" onclick="full(FourtyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/45.png);"></button>
+                    <button type="button" class="btn-primary"  id="FourtySix"  data-toggle="modal" data-target="#mymodal" onclick="full(FourtySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/46.png);"></button> 
+                    <button type="button" class="btn-primary" id="FourtySeven"data-toggle="modal" data-target="#mymodal" onclick="full(FourtySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/47.png);"></button>      
+                    <button type="button" class="btn-primary" id="FourtyEight" data-toggle="modal" data-target="#mymodal" onclick="full(FourtyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/48.png);"></button>
+                    <button type="button" class="btn-primary" id="FourtyNine" onclick="full(FourtyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/49.png);"></button>
+                    <button type="button" class="btn-primary"id="Fifty" onclick="full(Fifty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/50.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="FiftyOne"data-toggle="modal" data-target="#mymodal" onclick="full(FiftyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/51.png);"></button>  
+                    <button type="button" class="btn-primary" id="FiftyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(FiftyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/52.png);"></button>
+                    <button type="button" class="btn-primary" id="FiftyThree" onclick="full(FiftyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/53.png);"></button>
+                    <button type="button" class="btn-primary"id="FiftyFour" onclick="full(FiftyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/54.png);"></button>
+                    <button type="button" class="btn-primary"id="FiftyFive" onclick="full(FiftyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/55.png);"></button>
+                    <button type="button" class="btn-primary"  id="FiftySix"  data-toggle="modal" data-target="#mymodal" onclick="full(FiftySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/56.png);"></button> 
+                    <button type="button" class="btn-primary" id="FiftySeven"data-toggle="modal" data-target="#mymodal" onclick="full(FiftySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/57.png);"></button>      
+                    <button type="button" class="btn-primary" id="FiftyEight" data-toggle="modal" data-target="#mymodal" onclick="full(FiftyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/58.png);"></button>
+                    <button type="button" class="btn-primary" id="FiftyNine" onclick="full(FiftyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/59.png);"></button>
+                    <button type="button" class="btn-primary"id="Sixty" onclick="full(Sixty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/60.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="SixtyOne"data-toggle="modal" data-target="#mymodal" onclick="full(SixtyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/61.png);"></button>  
+                    <button type="button" class="btn-primary" id="SixtyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(SixtyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/62.png);"></button>
+                    <button type="button" class="btn-primary" id="SixtyThree" onclick="full(SixtyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/63.png);"></button>
+                    <button type="button" class="btn-primary"id="SixtyFour" onclick="full(SixtyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/64.png);"></button>
+                    <button type="button" class="btn-primary"id="SixtyFive" onclick="full(SixtyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/65.png);"></button>
+                    <button type="button" class="btn-primary"  id="SixtySix"  data-toggle="modal" data-target="#mymodal" onclick="full(SixtySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/66.png);"></button> 
+                    <button type="button" class="btn-primary" id="SixtySeven"data-toggle="modal" data-target="#mymodal" onclick="full(SixtySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/67.png);"></button>      
+                    <button type="button" class="btn-primary" id="SixtyEight" data-toggle="modal" data-target="#mymodal" onclick="full(SixtyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/68.png);"></button>
+                    <button type="button" class="btn-primary" id="SixtyNine" onclick="full(SixtyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/69.png);"></button>
+                    <button type="button" class="btn-primary"id="Seventy" onclick="full(Seventy)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/70.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="SeventyOne"data-toggle="modal" data-target="#mymodal" onclick="full(SeventyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/71.png);"></button>  
+                    <button type="button" class="btn-primary" id="SeventyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(SeventyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/72.png);"></button>
+                    <button type="button" class="btn-primary" id="SeventyThree" onclick="full(SeventyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/73.png);"></button>
+                    <button type="button" class="btn-primary"id="SeventyFour" onclick="full(SeventyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/74.png);"></button>
+                    <button type="button" class="btn-primary"id="SeventyFive" onclick="full(SeventyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/75.png);"></button>
+                    <button type="button" class="btn-primary"  id="SeventySix"  data-toggle="modal" data-target="#mymodal" onclick="full(SeventySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/76.png);"></button> 
+                    <button type="button" class="btn-primary" id="SeventySeven"data-toggle="modal" data-target="#mymodal" onclick="full(SeventySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/77.png);"></button>      
+                    <button type="button" class="btn-primary" id="SeventyEight" data-toggle="modal" data-target="#mymodal" onclick="full(SeventyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/78.png);"></button>
+                    <button type="button" class="btn-primary" id="SeventyNine" onclick="full(SeventyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/79.png);"></button>
+                    <button type="button" class="btn-primary"id="Eighty" onclick="full(Eighty)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/80.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="EightyOne"data-toggle="modal" data-target="#mymodal" onclick="full(EightyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/81.png);"></button>  
+                    <button type="button" class="btn-primary" id="EightyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(EightyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/82.png);"></button>
+                    <button type="button" class="btn-primary" id="EightyThree" onclick="full(EightyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/83.png);"></button>
+                    <button type="button" class="btn-primary"id="EightyFour" onclick="full(EightyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/84.png);"></button>
+                    <button type="button" class="btn-primary"id="EightyFive" onclick="full(EightyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/85.png);"></button>
+                    <button type="button" class="btn-primary"  id="EightySix"  data-toggle="modal" data-target="#mymodal" onclick="full(EightySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/86.png);"></button> 
+                    <button type="button" class="btn-primary" id="EightySeven"data-toggle="modal" data-target="#mymodal" onclick="full(EightySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/87.png);"></button>      
+                    <button type="button" class="btn-primary" id="EightyEight" data-toggle="modal" data-target="#mymodal" onclick="full(EightyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/88.png);"></button>
+                    <button type="button" class="btn-primary" id="EightyNine" onclick="full(EightyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/89.png);"></button>
+                    <button type="button" class="btn-primary"id="Ninety" onclick="full(Ninety)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/90.png);"></button>
+                    <br><br>
+                    <button type="button" class="btn-primary" id="NinetyOne"data-toggle="modal" data-target="#mymodal" onclick="full(NinetyOne)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/91.png);"></button>  
+                    <button type="button" class="btn-primary" id="NinetyTwo" data-toggle="modal" data-target="#mymodal" onclick="full(NinetyTwo)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/92.png);"></button>
+                    <button type="button" class="btn-primary" id="NinetyThree" onclick="full(NinetyThree)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/93.png);"></button>
+                    <button type="button" class="btn-primary"id="NinetyFour" onclick="full(NinetyFour)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/94.png);"></button>
+                    <button type="button" class="btn-primary"id="NinetyFive" onclick="full(NinetyFive)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/95.png);"></button>
+                    <button type="button" class="btn-primary"  id="NinetySix"  data-toggle="modal" data-target="#mymodal" onclick="full(NinetySix)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/96.png);"></button> 
+                    <button type="button" class="btn-primary" id="NinetySeven"data-toggle="modal" data-target="#mymodal" onclick="full(NinetySeven)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/97.png);"></button>      
+                    <button type="button" class="btn-primary" id="NinetyEight" data-toggle="modal" data-target="#mymodal" onclick="full(NinetyEight)" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/98.png);"></button>
+                    <button type="button" class="btn-primary" id="NinetyNine" onclick="full(NinetyNine)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/99.png);"></button>
+                    <button type="button" class="btn-primary"id="OneHundred" onclick="full(OneHundred)" data-toggle="modal" data-target="#mymodal" style= "background-position:center; background-repeat: no-repeat; background-image: url(Buttons/100.png);"></button>
+                </div>
+            </div>
+        </div>     
+        
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Letter.js"></script>
+    </body>
+</html>
