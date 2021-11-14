@@ -1,50 +1,51 @@
 body{
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;  
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;  
 
 }
 .btn-circle{
-  width:15%;
-  height:15%;
-  border: none;
-  overflow: hidden;
-  background-color: transparent;
-  border-radius: 50%;
-  background-size:contain;
+width:15%;
+height:15%;
+border: none;
+overflow: hidden;
+background-color: transparent;
+border-radius: 50%;
+background-size:contain;
 }
 .btn-primary{
-  width:8.75%;
-  height: 9%;
-  border: none;
-  overflow: hidden;
-  background-color: transparent;
-  background-size:contain;
+width:9%;
+height: 9%;
+border: none;
+overflow: hidden;
+background-color: transparent;
+background-size:contain;
 
 }
 .modal {
-  /* Hidden by default */
-  position: fixed; /* Stay in place */
-  display: none;
-  
+/* Hidden by default */
+position: fixed; /* Stay in place */
+display: none;
+
 }
 .modal-content {
-  margin: auto;
- 
+margin: auto;
+
 }
-.btn-dark{
-  width:30%;
-  height: 30%;
-  border: none;
-  overflow: hidden;
-  background-color: transparent;
-  background-size:contain;
+.btn{
+
+width:25%;
+height: 150px;
+border: none;
+overflow: hidden;
+background-color: transparent;
+background-size:contain;
 }
 
 #audbtn{
-  width:20px;
-  height:20px;
-  background-color: transparent;
-  border-radius: 50%;
-  background-size:contain;
+width:20px;
+height:20px;
+background-color: transparent;
+border-radius: 50%;
+background-size:contain;
 }
